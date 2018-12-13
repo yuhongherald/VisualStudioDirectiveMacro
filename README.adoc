@@ -1,0 +1,23 @@
+I thought that this can be recurring problem so I've decided to look for a macro to speed things up. To set up the macro environment:
+
+1. Get the macros plugin for visual studio
+Search for "Macros for Visual Studio" or go to https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MacrosforVisualStudio
+
+Run the installer and apply to the Visual Studio version you're using.
+I have included the installer at <link> in case the link becomes inaccessible.
+
+2. Write a macro to reorder the directives.
+Open Visual Studio, then go to Tools>Macros>Macro Explorer
+
+Then create a new macro by right-clicking the Macro Browser List > New Macro. You can name macro whatever you want.
+
+Open the macro by right-clicking on its name and selecting Open. Copy paste the macro from the file.
+I have included the macro file at <link>.
+
+3. Adjust Visual Studio preferences for using Directives
+
+
+4. [Optional] Set up a hotkey for the macro
+
+
+And now you are done! Run the macro whenever you need to. Just be warned that the macro is UI-based and currently loops through all files, so you might have to wait a while.
